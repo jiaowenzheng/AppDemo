@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/bind_service_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="绑定Service"
+        />
+
+    <Button
+        android:id="@+id/unbind_service_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="解除Service"
+        />
+    <Button
+        android:id="@+id/call_back_btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10 + 10"
+        />
+    <Button
+        android:id="@+id/call_back_btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="50 - 2"
+        />
+
+
+</LinearLayout>
+
+

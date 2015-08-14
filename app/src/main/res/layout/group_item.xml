@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ff202428"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/children_image"
+        android:layout_width="fill_parent"
+        android:layout_height="200.5dip"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:id="@+id/child_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/> >
+</LinearLayout>
