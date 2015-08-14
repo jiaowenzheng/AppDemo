@@ -5,6 +5,6 @@
 /build
 /captures
 /gradle
-/*.iml
+*.iml
 gradlew
 gradlew.bat
