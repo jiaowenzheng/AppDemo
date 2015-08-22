@@ -46,6 +46,9 @@
             android:name=".activity.ListViewActivity"
             android:label="@string/title_activity_list_view" >
         </activity>
+
+        <activity android:name=".activity.MyViewGroupActivity"/>
+
     </application>
 
 </manifest>
